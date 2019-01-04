@@ -155,9 +155,7 @@ nav:hover ul {
 	color: #dd2020;
 }
 
-.one-third-port img:hover {
-	opacity: .6;
-}
+
 
 /*------- CONTACT ---------*/
 
@@ -182,3 +180,26 @@ footer.second p {
 	padding: 5%;
 }
 
+/*-------- PORTFOLIO -------*/
+
+.portfolio-box {
+max-width:300px;
+margin: auto;
+text-align: center;
+background-color: lightgray;
+border-radius: 3px;
+padding: 1px;
+font-size: 13px;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+
+
+.portfolio-box img:hover {
+	opacity: .6;
+}
+
+#name {
+    color:hotpink;
+    margin: 10px 10px 20px 0;
+}
