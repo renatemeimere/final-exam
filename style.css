@@ -9,6 +9,8 @@ body {
 	width: 100%;
 }
 
+
+
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 200%;
@@ -186,26 +188,43 @@ footer.second p {
 max-width:300px;
 margin: auto;
 text-align: center;
-background-color: lightgray;
+background-color: white;
 border-radius: 3px;
-padding: 1px;
+padding: auto;
 font-size: 13px;
 margin-bottom: 10px;
 margin-top: 20px;
 }
 
 
+.portfolio-box img {
+
+filter: gray;
+-webkit-filter: grayscale(1);
+-webkit-transition: all .8s ease-in-out;
+padding: 32px 0px 0px 0px;
+
+    }
+
+
 .portfolio-box img:hover {
-	opacity: .6;
-}
+filter: none;
+-webkit-filter: grayscale(0);
+-webkit-transform: scale(1.05);
+
+    }
+
 
 #name {
 color:hotpink;
-margin: 10px 10px 20px 0;
-}
-
-#web1 {
-margin-top: 20px;
-border-radius: 2px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 
 }
+
+
+
+
+
+
+
