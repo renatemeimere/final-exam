@@ -5,9 +5,9 @@
 
 html,
 body {
-	margin: 0;
-	height: 100%;
-	width: 100%;
+
+    margin: 0.3em;
+    margin-top: 0em;
 }
 
 
@@ -31,7 +31,6 @@ p {
 	line-height: 110%;
 	text-align: justify;
 	font-weight: 300;
-    margin: 15px;
 }
 
 img {
@@ -236,8 +235,12 @@ color: #22A9D7;
     text-decoration: none;
 }
 
-#responsive-website-1 {
+
+figure img {
     width: 100%;
+}
+
+#responsive-website-1 {
 }
 
 
