@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 html,
 body {
 	margin: 0;
-	padding: 0;
 	height: 100%;
 	width: 100%;
 }
@@ -20,13 +21,17 @@ h2 {
 	text-align: center;
 }
 
+a, a:visited, a:hover, a:active {
+    text-decoration:none;
+}
+
 p {
 	font-family: 'Raleway', serif;
 	color: #2c2c2c;
-	font-size: 140%;
 	line-height: 110%;
 	text-align: justify;
 	font-weight: 300;
+    margin: 15px;
 }
 
 img {
@@ -214,13 +219,24 @@ filter: none;
 
     }
 
-
 #name {
-color:hotpink;
+color: dimgrey;
 margin: 0px 0px 0px 0px;
 padding: 0px 0px 0px 0px;
+text-decoration:none;
+font-family: 'Montserrat', sans-serif;
 
 }
+
+#name:hover {
+color: #22A9D7;
+}
+
+
+
+
+
+
 
 
 
