@@ -306,6 +306,66 @@ a:hover {
 
 
 
+/*///// medium screen sizes //////*/
+
+@media all and (min-width:800px) {
+    body {
+        background-color: rgb(209, 212, 212);
+    }
+
+    /* ///// layout of overall page ///// */
+
+   /* section.main{
+display: grid;
+        grid-gap: 1px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            " . o o . "
+            " . p p . "
+            " . r r r "
+
+
+
+   /* section.left-col {
+        grid-area: l;
+    }
+
+
+    section.sidebar {
+        grid-area: s;
+    }
+
+    section.portfolio {
+        grid-area: o;
+    }
+
+    #box1 {
+        grid-area: a;
+    }
+
+    #box2 {
+        grid-area: b;
+    }
+
+    #box3 {
+        grid-area: c;
+    }
+
+    #box4 {
+        grid-area: d;
+    }
+
+    section.contact {
+        grid-area: e
+    }
+
+
+
+
+
+
+
 
 
 
