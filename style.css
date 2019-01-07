@@ -320,9 +320,7 @@ a:hover {
 
 
 @media all and (min-width:800px) {
-    body {
-        background-color: rgb(209, 212, 212);
-    }
+
 
     .left-col{
         width: 60%;
