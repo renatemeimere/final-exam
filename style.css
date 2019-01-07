@@ -84,6 +84,15 @@ h1 {
 	padding: 10px;
 }
 
+.title {
+    color: transparent;
+}
+
+#title1 {
+    color: transparent;
+}
+
+
 /*----- Navigation --------*/
 nav {
 	float: left;
