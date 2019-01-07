@@ -308,57 +308,61 @@ a:hover {
 
 /*///// medium screen sizes //////*/
 
+
+
 @media all and (min-width:800px) {
     body {
         background-color: rgb(209, 212, 212);
     }
 
-    /* ///// layout of overall page ///// */
+    .left-col{
+        width: 60%;
+        float: left;
+        margin: 4% 0 4% 4%;
+    }
 
-   /* section.main{
-display: grid;
-        grid-gap: 1px;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas:
-            " . o o . "
-            " . p p . "
-            " . r r r "
+    .sidebar {
+        width: 26%;
+        float: left;
+        margin: 4%;
+    }
 
+    .portfolio {
+        display: flex;
+        border: 1px #4caff0 solid;
+        padding: 10px 100px;
+    }
 
+    section.portfolio-box {
+        margin:5px;
+    }
 
-   /* section.left-col {
-        grid-area: l;
+    .all-content {
+    max-width: 600px;
+	margin: auto;
     }
 
 
-    section.sidebar {
-        grid-area: s;
+    .clearfix {
+        clear: both;
+        height: 3%;
+    }
+   /* .portfolio-box {
+        width: 15%;
+        padding: 1%;
+        float: left;
+        margin: 4%;
     }
 
-    section.portfolio {
-        grid-area: o;
-    }
+    .contact {
+        width: 59%;
+        margin: 25%;
+        padding: 30px 30px 0 0;
 
-    #box1 {
-        grid-area: a;
-    }
+    } */
 
-    #box2 {
-        grid-area: b;
-    }
+}
 
-    #box3 {
-        grid-area: c;
-    }
-
-    #box4 {
-        grid-area: d;
-    }
-
-    section.contact {
-        grid-area: e
-    }
 
 
 
