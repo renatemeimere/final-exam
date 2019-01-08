@@ -13,12 +13,14 @@ body {
 
 
 h2 {
-	font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif;
 	font-size: 200%;
 	font-weight: 700;
 	color: #2c2c2c;
 	text-decoration: none;
 	text-align: center;
+     letter-spacing: 3px;
+
 }
 
 a, a:visited, a:hover, a:active {
@@ -63,7 +65,7 @@ img {
 }
 
 h1 {
-	font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif;
 	font-size: 230%;
 	font-weight: 800;
 	color: #FFF;
@@ -82,8 +84,11 @@ h1 {
 
 /* top nav bar style */
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+overflow: hidden;
+background-color: #333;
+letter-spacing: 1px;
+font-family: 'Montserrat', sans-serif;
+
 }
 
 /* topnav links style */
@@ -103,6 +108,8 @@ h1 {
   color: black;
 }
 
+/* SOCIAL ICONS */
+
 .social {
 	list-style: none;
 	text-align: center;
@@ -110,11 +117,10 @@ h1 {
 
 .social li {
 	display: inline;
-    color: black;
 }
 
 .social i {
-	font-size: 150%;
+	font-size: 180%;
 	margin: 1% 5% 1% 4%;
 	color: #606060;
 }
@@ -264,6 +270,15 @@ a:hover {
 .previous-next {
     text-align: center;
     width: 100%;
+}
+
+.sidebar {
+
+
+max-width:300px;
+margin: auto;
+text-align: center;
+padding: auto;
 }
 
 
