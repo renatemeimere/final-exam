@@ -72,6 +72,8 @@ font-family: 'Montserrat', sans-serif;
 .topnav a:hover {
   background-color: #22A9D7;
   color: black;
+transition: .3s;
+
 }
 
 /* SOCIAL ICONS */
@@ -249,24 +251,28 @@ text-align: center;
 
                 /* SVG */
 
-
+/*position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding-top: 50px; */
 
 
 
 svg {
-    width: 300px;
+    width: 250px;
+    padding-top: 40px;
     fill: none;
     stroke: grey;
     stroke-width: 2;
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 5s forwards;
-    position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    padding-top: 50px;
+    margin: 0;
+    margin: auto;
+    display: block;
+
 }
 
 
@@ -295,6 +301,7 @@ svg {
         width: 26%;
         float: left;
         margin: 4%;
+
     }
 
     .portfolio {
@@ -319,9 +326,12 @@ svg {
     }
 
     svg {
-    width: 500px;
+            width: 400px;
 
-    }}
+    }
+
+
+    }
 
 
 
